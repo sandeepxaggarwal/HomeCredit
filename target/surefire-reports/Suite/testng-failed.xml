@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="DD_Util.TestListener"/>
+    <listener class-name="DD_Util.AnnotationTransformer"/>
+  </listeners>
+  <test name="Test(failed)">
+    <classes>
+      <class name="DD_TestCases.LoginTest">
+        <methods>
+          <include name="afterTest"/>
+          <include name="close"/>
+          <include name="init"/>
+          <include name="isSkip"/>
+          <include name="doLogin" invocation-numbers="0 0 0"/>
+        </methods>
+      </class> <!-- DD_TestCases.LoginTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

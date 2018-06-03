@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 1, Errors: 0, Skipped: 2, Time elapsed: 18.209 sec <<< FAILURE! - in TestSuite
+doLogin(DD_TestCases.LoginTest)  Time elapsed: 0.89 sec  <<< FAILURE!
+java.lang.AssertionError
+	at DD_TestCases.LoginTest.doLogin(LoginTest.java:39)
+
